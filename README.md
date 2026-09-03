@@ -1,5 +1,7 @@
 # Romance Scam Statistics — Open Dataset (2024–2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22284080.svg)](https://doi.org/10.5281/zenodo.22284080)
+
 Verified, source-attributed statistics on romance scams ("arnaques sentimentales"), compiled and fact-checked in June 2026 for the **Baromètre des arnaques sentimentales**. Every figure was verified against the primary report before inclusion; figures that could not be traced to a primary or clearly-attributed secondary source were excluded.
 
 📊 Human-readable versions:
@@ -34,6 +36,8 @@ Full machine-readable data with source URLs and exact citations: [`data/romance-
 
 Data compiled from public official sources. Reuse freely with attribution:
 
-> Baromètre des arnaques sentimentales, arnaques-rencontres.fr, June 2026.
+> Le Normand, V. (2026). *Romance Scam Statistics 2024-2026 (Baromètre 2026 des arnaques sentimentales)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22284080
+
+Permanent archive with DOI: https://zenodo.org/record/22284080 (concept DOI for all versions: 10.5281/zenodo.22284079).
 
 Maintained by [Valentin Le Normand](https://www.valentin.love) — founder of an international matchmaking agency and editor of [arnaques-rencontres.fr](https://www.arnaques-rencontres.fr), a French romance-scam prevention site.
