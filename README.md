@@ -26,6 +26,11 @@ Verified, source-attributed statistics on romance scams ("arnaques sentimentales
 
 Full machine-readable data with source URLs and exact citations: [`data/romance-scam-statistics.json`](data/romance-scam-statistics.json)
 
+## Practical guides for people targeted (French)
+
+- [Comment reconnaître un brouteur](https://www.arnaques-rencontres.fr/fr/articles/brouteur-guide-complet): definition, methods and the 12 signs of a "brouteur" (West African romance scammer).
+- [Victime d'une arnaque sentimentale : que faire](https://www.arnaques-rencontres.fr/fr/articles/victime-arnaque-sentimentale-que-faire): the 7 steps to take, from cutting contact and alerting the bank to filing a police report and getting support.
+
 ## Known data gaps
 
 - France publishes **no official national financial total** for romance scams (volumes only).
