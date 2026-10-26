@@ -1,12 +1,17 @@
 {
   "collecte": "2026-06-12",
+  "mise_a_jour": "2026-10-26",
+  "corrections": [
+    "2026-10-26 : mode de transaction des arnaques sentimentales corrige (IC3 2025 p.10 : cartes prepayees/cadeaux 31%, crypto 25%, et non crypto 31%) ; FTC 2025 sur l annee complete au lieu des 9 premiers mois"
+  ],
   "usage": "Page barometre arnaques-rencontres.fr - chaque stat verifiee a la source par agent",
   "stats_cles": [
     {"stat": "Pertes romance scam FBI 2025", "valeur": "929 287 469 $ / 23 159 plaintes (+38% pertes, +29% plaintes vs 2024)", "source": "FBI IC3 2025 Internet Crime Report (PDF officiel)", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
     {"stat": "Seniors 60+ USA", "valeur": "584 M$ de pertes (63% du total romance), +50% vs 2024", "source": "FBI IC3 2025, section Elder Fraud", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
     {"stat": "Romance scams avec IA identifiee", "valeur": "19 M$ (626 plaintes) + 5 M$ distress scams par clonage de voix", "source": "FBI IC3 2025, section AI", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
-    {"stat": "Nexus crypto", "valeur": "394,8 M$ (42% des pertes romance US) ; crypto = 1er mode de transaction (31%)", "source": "FBI IC3 2025", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
-    {"stat": "FTC 9 premiers mois 2025", "valeur": "1,16 Md$ / 55 604 signalements (+22%), perte mediane 2 218 $ (T3)", "source": "FTC via Global Dating Insights", "url": "https://www.globaldatinginsights.com/featured/romance-scams-outpace-other-fraud-types-at-1-16-billion/", "fiabilite": "secondaire"},
+    {"stat": "Nexus crypto", "valeur": "394,8 M$ (42% des pertes romance US) ; en frequence des pertes declarees, cartes prepayees/cadeaux = 1er mode de transaction (31%), devant la crypto (25%), le virement (21%), le paiement entre particuliers (15%) et la carte bancaire (8%)", "source": "FBI IC3 2025, p.10 (Top Reported Transaction Types) et p.55 (Crime Types with Cryptocurrency Nexus)", "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf", "fiabilite": "primaire"},
+    {"stat": "FTC 2025 annee complete", "valeur": "1,49 Md$ / 70 588 signalements (60 916 en 2024), perte mediane 2 050 $ ; 1er semestre 2026 : 682 M$ / 30 152 signalements", "source": "FTC Consumer Sentinel, donnees interactives (toutes sources Sentinel)", "url": "https://public.tableau.com/app/profile/federal.trade.commission/viz/FraudReports/SubcategoriesOverTime", "fiabilite": "primaire"},
+    {"stat": "FTC 9 premiers mois 2025 (provisoire, remplace par l annee complete)", "valeur": "1,16 Md$ / 55 604 signalements (+22%), perte mediane 2 218 $ (T3)", "source": "FTC via Global Dating Insights", "url": "https://www.globaldatinginsights.com/featured/romance-scams-outpace-other-fraud-types-at-1-16-billion/", "fiabilite": "secondaire"},
     {"stat": "Reseaux sociaux", "valeur": "~60% des romance scams 2025 demarrent sur les reseaux sociaux", "source": "FTC communique 27/04/2026", "url": "https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams", "fiabilite": "primaire"},
     {"stat": "FTC Sentinel romance scams", "valeur": "34 377 signalements 2024 (33 759 en 2023, 37 340 en 2022)", "source": "FTC CSN Data Book 2024 p.87", "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf", "fiabilite": "primaire"},
     {"stat": "UK 2025", "valeur": "102 M£ / 10 784 signalements (+29%), moyenne 9 500 £, 55-74 ans = ~50% des montants", "source": "City of London Police 05/05/2026", "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2026/may/romance-fraud-costs-uk-victims-102-million-in-a-year-as-reports-surge-by-nearly-a-third/", "fiabilite": "primaire"},
@@ -25,7 +30,7 @@
   "trous": [
     "Aucun prejudice financier national officiel France (DGPN ne publie que les volumes)",
     "Pas de ventilation THESEE par type",
-    "FTC Data Spotlight romance plus mis a jour depuis 02/2023 ; chiffre annuel 2025 complet pas encore publie",
+    "FTC Data Spotlight romance plus mis a jour depuis 02/2023 ; le chiffre annuel 2025 complet se lit dans les donnees interactives Consumer Sentinel",
     "Taux de non-declaration : aucune source primaire recente - ne pas utiliser le '1 sur 15-20'",
     "Europol : pas de chiffres agreges UE"
   ],
@@ -33,7 +38,7 @@
     "Le paradoxe francais : 3 400 plaintes vs 23 159 USA / 10 784 UK - la France est statistiquement aveugle",
     "+38% en un an : 929 M$ au FBI, portes par l'IA (19 M$ avec lien IA identifie)",
     "Les seniors paient l'addition : 63% des pertes US viennent des 60+",
-    "L'arnaque a l'amour est devenue une arnaque a l'investissement (crypto = 31% des transactions)",
+    "L'arnaque a l'amour est devenue une arnaque a l'investissement (42% des pertes romance US liees a la crypto)",
     "~60% des arnaques demarrent sur les reseaux sociaux, pas sur les sites de rencontre"
   ]
 }
